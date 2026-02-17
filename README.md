@@ -36,7 +36,7 @@ You'll see the retro banner, then an interactive prompt:
 
 ```
 >>> Enter search query (or 'q' to quit): mountain landscape
->>> How many images? (default 10, max 50): 15
+>>> How many images? (default 10, max 1000): 15
 ```
 
 The app will search, display a results table, download the images with a live progress bar, show ASCII previews of the first 5, and print a summary of saved files.

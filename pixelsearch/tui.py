@@ -95,13 +95,13 @@ class PixelSearchTUI:
         """Ask how many images to fetch."""
         self.console.print(
             "[prompt]>>>[/prompt] How many images? "
-            "([muted]default 10, max 50[/muted]): ",
+            "([muted]default 10, max 1000[/muted]): ",
             end="",
         )
         raw = input().strip()
         try:
             n = int(raw)
-            return max(1, min(n, 50))
+            return max(1, min(n, 1000))
         except ValueError:
             return 10
 
