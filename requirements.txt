@@ -1,0 +1,15 @@
+# PixelSearch - Terminal Image Search TUI
+# ========================================
+# Core dependencies:
+
+# Async HTTP client for fast parallel image downloads
+aiohttp>=3.9.0
+
+# DuckDuckGo search - free, no API key required
+duckduckgo-search>=7.0.0
+
+# Image processing for ASCII thumbnail generation
+Pillow>=10.0.0
+
+# Rich terminal UI for styled, retro-themed output
+rich>=13.0.0

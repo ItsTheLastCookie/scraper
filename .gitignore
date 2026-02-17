@@ -1,0 +1,16 @@
+# Downloaded images (created at runtime)
+downloads/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
